@@ -19,7 +19,6 @@ void	handle_collectible(t_game *game, int x, int y)
 		ft_printf("Collectible picked up! (%d/%d)\n",
 			game->player.collected, game->map.collectibles);
 	}
-	
 }
 
 void	check_win_condition(t_game *game)

@@ -47,6 +47,9 @@ static void	draw_map_helper(t_game *game)
 			else if (game->map.grid[y][x] == 'C')
 				mlx_put_image_to_window(game->mlx, game->win,
 					game->img.collectible, x * TILE_SIZE, y * TILE_SIZE);
+			else if (game->map.grid[y][x] == 'E')
+				mlx_put_image_to_window(game->mlx, game->win,
+					game->img.exit, x * TILE_SIZE, y * TILE_SIZE);
 			x++;
 		}
 		y++;
