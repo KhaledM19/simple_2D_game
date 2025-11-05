@@ -5,7 +5,7 @@ void	init_window_and_images(t_game *game)
 	game->win = mlx_new_window(game->mlx,
 			game->map.width * TILE_SIZE,
 			game->map.height * TILE_SIZE,
-			"so_long");
+			"2D_Game");
 	if (!game->win)
 	{
 		ft_printf("Error\nFailed to create window\n");
