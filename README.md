@@ -1,5 +1,7 @@
 # simple_2D_game
 
+![Alt text](game_pic.png)
+
 this repository hold the a simple 2D game done using the C programming language and the mlx library
 
 to run it go to this link https://github.com/42paris/minilibx-linux and clone the mlx library into the game file,
